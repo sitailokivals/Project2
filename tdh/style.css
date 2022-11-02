@@ -1,0 +1,120 @@
+body {
+	background: rgb(0, 0, 0);
+	height: 300px;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 10px 10px;
+}
+
+h1 {
+	color: #eee;
+	text-align: center;
+	width: 100%;
+}
+
+.battle {
+	background: #eee;
+	width: 410px;
+	height: 325px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgb(70, 14, 14);
+	transition: all 1s ease-in-out;
+}
+
+.battle:hover{
+	transform: scale(1.2);
+	position: relative;
+	z-index: 1;
+	box-shadow: 3px 3px 5px rgb(132, 19, 19);
+}
+
+.battle__field {
+	width: 400px;
+	height: 300px;
+	box-sizing: border-box;
+	outline: 2px dashed rgb(200, 59, 59);
+	margin: 0 auto;
+}
+
+.battle__field > div:first-child {
+	height: 300px;
+	box-sizing: border-box;
+}
+
+.battle__name {
+	text-align: center;
+}
+.body__ex-10{
+      animation-name: chandgebg;
+      animation-duration:1s;
+      animation-iteration-count:infinite;
+    animation-direction: alternate;
+
+}
+@keyframes chandgebg {
+    from{
+        background: #610d0d;
+    }
+    to{
+        background: #f01505;
+    }
+  }
+  h1{
+  margin-left:800px;
+    font-size:30px;
+    margin-top:-300px;
+     
+  }
+  body{
+  height: 100vh;;
+  
+  }
+  .body__ex-1{
+    animation-name: chandgebg2;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+  animation-direction: alternate;
+
+
+  }
+  @keyframes chandgebg2 {
+    from{
+        background: #857e20;
+    }
+    to{
+        background: #f1e206;
+    }
+  }  
+  .body__ex-2{
+    animation-name: chandgebg3;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+  animation-direction: alternate;
+
+
+  }
+  @keyframes chandgebg3 {
+    from{
+        background: #530b44;
+    }
+    to{
+        background: #e9079d;
+    }
+  }  
+  .body__ex-6{
+    animation-name: chandgebg4;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+  animation-direction: alternate;
+
+  }
+  @keyframes chandgebg4 {
+    from{
+        background: #0b5a16;
+    }
+    to{
+        background: #27a508;
+    }
+  }  
